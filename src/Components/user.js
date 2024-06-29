@@ -4,19 +4,8 @@ function User(props) {
 	const {name,admin,age}=props
 
 	return (
-		<div>
-		{admin=="admin"?(
-			<button>Delete User</button>
+		<div>{name}</div>
 
-			):(
-			<h1>HI,{name}</h1>
-			)
-
-	}
-
-
-		
-		</div>
 	)
 }
 export default User
