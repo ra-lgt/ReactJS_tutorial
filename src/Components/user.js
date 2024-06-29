@@ -1,12 +1,31 @@
 import React from 'react'
 
-function User() {
+function User(props) {
+	const {name,admin,age}=props
 
 	return (
 		<div>
-		<img src="../logo.png"></img>
-			
+		{admin=="admin"?(
+			<button>Delete User</button>
+
+			):(
+			<h1>HI,{name}</h1>
+			)
+
+	}
+
+
+		
 		</div>
 	)
 }
 export default User
+
+
+
+// public void add(a,b){
+
+// }
+
+// add(10,20)
+//props as a OBJECT
