@@ -6,24 +6,24 @@ import User from './Components/user'
 
 //get the name from backend and store it in name
 function ProductList(props){
-  let {id,name}=props
+  let {id,name}={}
 
   return(
     <div>
     {/*Conditional rendering 1*/}
 
-{/*    {id==1 ? (
+    {id==1 ? (
       <div>You are the number one</div>
       ):(
       <></>
       )
-    }*/}
+    }
     {/*Conditional rendering 2*/}
 
-{/*        {id!=1 &&(
+       {id!=1 &&(
       <div> You are the number one</div>
       )
-      }*/}
+      }
     {name}{id}
 
 

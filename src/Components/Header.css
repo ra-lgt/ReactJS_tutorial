@@ -1,0 +1,8 @@
+.headerContainer{
+	display: flex;
+	flex-direction: row;
+	flex: 1;
+	background-color: grey;
+	justify-content: space-around;
+
+}
