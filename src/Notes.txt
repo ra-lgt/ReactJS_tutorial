@@ -1,0 +1,2 @@
+1) {} -> enables the power of JS
+2) () -> enable the power of HTML
