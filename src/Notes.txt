@@ -1,2 +1,10 @@
 1) {} -> enables the power of JS
 2) () -> enable the power of HTML
+
+
+AUG 15
+1) functional component
+2) class component
+3) props
+4) state.setState,bind,this,eventListener
+5) babel
