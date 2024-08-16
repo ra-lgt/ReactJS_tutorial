@@ -1,0 +1,31 @@
+.cardContainer{
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	align-content: center;
+}
+.card{
+	border: 1px solid black;
+	width: 250px;
+	height: 250px;
+}
+.timer{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.startButton{
+	border: 1px solid green;
+	width: 100%;
+	height: max-content;
+	background-color: white;
+	font-size: 20px;
+}
+.stopButton{
+	margin-top: 10px;
+	border: 1px solid red;
+	width: 100%;
+	height: max-content;
+	background-color: white;
+	font-size: 20px;
+}

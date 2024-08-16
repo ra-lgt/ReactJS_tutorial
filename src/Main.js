@@ -1,28 +1,17 @@
-import React from 'react';
-import './index.css'
-import ProductList from './ProductList.js'
-import product_1 from './assets/product_1.jpg'
-import product_2 from './assets/product_2.jpg'
-import product_3 from './assets/product_3.jpg'
-import FunctionalComp from './FunctionalComp.js'
-import ClassComp from './ClassComp.js'
-
-const handleVoteParent=()=>{
-
-}
-
+import React from 'react'
+import Header from './components/Header.js'
+import TimeCard from './components/TimeCard.js'
 function Main(){
+
 	return (
 		<div>
-		
-			<ClassComp/>
+			<Header/>
+			<TimeCard/>
+			<TimeCard/>
+			<TimeCard/>
 		</div>
-	)
 
+	);
 }
 
 export default Main
-
-
-
-
