@@ -1,15 +1,23 @@
 import React,{useState} from 'react'
 import '../static/timeCard.css'
 
-function React_hooks(){
+function React_hooks(props){
 	const [time,setTime]=useState(0)
+	let timeIntervalID=undefined
+	const {functionx}=props
 
+	functionx()
 	const startTimer=()=>{
-		setInterval(()=>{
-			setTime(time+1)
+		timeIntervalID=setInterval(()=>{
+			// setTime(time+1)
 			setTime(prevTime=> prevTime +1)
 
 		},10)
+
+	}
+	const stopTimer=()=>{
+		console.log("hello")
+		clearInterval(timeIntervalID)
 
 	}
 
@@ -22,7 +30,7 @@ function React_hooks(){
 					<p className='timer'>Timer is {time}</p>
 
 					<button className='startButton' onClick={startTimer}> start</button>
-					<button className='stopButton' > stop</button>
+					<button className='stopButton' onClick={stopTimer}> stop</button>
 				</div>
 
 
